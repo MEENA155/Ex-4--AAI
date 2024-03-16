@@ -59,7 +59,7 @@ for t in range(len(o_s)):
   if alpha[t, 0] > alpha[t,1]:
     m_l_s.append("sunny")
   else:
-    m_l_s.append("rainy")  
+    m_l_s.append("rainy")
 
 print("Thye most likely sequence of weather states is :",m_l_s)
 
